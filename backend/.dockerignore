@@ -1,0 +1,52 @@
+# ==============================================================================
+# Vedantu Online Coding Assessment Platform - Backend Dockerignore
+# ==============================================================================
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage*
+htmlcov/
+.tox/
+.nox/
+
+# Testing code and development scripts
+tests/
+*.log
+logs/
+
+# Git and version control
+.git/
+.gitignore
+
+# Environment files and secrets (Strictly prevent embedding secrets)
+.env
+.env.*
+*.pem
+*.key
+*.cert
+*.crt
+credentials.json
+secrets/
+
+# IDE, editor, and OS artifacts
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+.cache/
